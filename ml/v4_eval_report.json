@@ -1,0 +1,28 @@
+{
+  "heldout_modern": {
+    "n": 250,
+    "accuracy": 0.724,
+    "precision": 0.8043,
+    "recall": 0.592,
+    "f1": 0.682,
+    "roc_auc": 0.8381,
+    "3way": {
+      "likely_ai": 55,
+      "inconclusive": 61,
+      "likely_authentic": 134
+    }
+  },
+  "unseen_phones": {
+    "n": 72,
+    "accuracy": 0.5833,
+    "precision": 0.3659,
+    "recall": 0.7895,
+    "f1": 0.5,
+    "roc_auc": 0.6882,
+    "3way": {
+      "likely_ai": 23,
+      "inconclusive": 22,
+      "likely_authentic": 27
+    }
+  }
+}

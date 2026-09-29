@@ -10,6 +10,7 @@ data_demo/
 synthcifar/
 cifake/
 gensyn10/
+defactify_cap/
 truefake*/
 _librispeech/
 _eval_tmp/
