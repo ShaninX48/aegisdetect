@@ -12,6 +12,7 @@ cifake/
 gensyn10/
 truefake*/
 _librispeech/
+_eval_tmp/
 *.tar
 *.tar.gz
 
