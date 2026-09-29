@@ -7,6 +7,13 @@ from app.services.image_service import (
 from app.services.store import DB, next_id
 
 try:
+    from app.services.v4_vision import predict as v4_predict, MODEL_VERSION as V4_VER
+    _HAS_V4 = True
+except Exception:
+    v4_predict = None
+    _HAS_V4 = False
+
+try:
     from app.services.cnn_vision import predict as cnn_predict, MODEL_VERSION as CNN_VER
     _HAS_CNN = True
 except Exception:
@@ -30,7 +37,9 @@ except Exception:
 from app.services.image_service import classify_dummy
 
 router = APIRouter()
-if _HAS_CNN:
+if _HAS_V4:
+    MODEL_VERSION = V4_VER
+elif _HAS_CNN:
     MODEL_VERSION = CNN_VER
 elif _HAS_DEEP:
     MODEL_VERSION = DEEP_VER
@@ -52,7 +61,14 @@ async def analyze_image(file: UploadFile = File(...)):
     file_hash = sha256_hex(content)
     meta = extract_metadata(content)
     used_version = MODEL_VERSION
-    if _HAS_CNN:
+    if _HAS_V4:
+        try:
+            result, ai_prob, indicators = v4_predict(content)
+            used_version = V4_VER
+        except Exception:
+            result, ai_prob, indicators = classify_dummy(file_hash)
+            used_version = "AegisVision stub-0.1.0"
+    elif _HAS_CNN:
         try:
             result, ai_prob, indicators = cnn_predict(content)
             used_version = CNN_VER
