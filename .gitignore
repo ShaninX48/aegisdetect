@@ -1,0 +1,35 @@
+# AegisDetect - keep code + small weights, drop datasets/personal media
+__pycache__/
+*.pyc
+
+# personal + downloaded media (NEVER push)
+data_real/
+voice_data/
+voice_demo/
+data_demo/
+synthcifar/
+cifake/
+gensyn10/
+truefake*/
+_librispeech/
+*.tar
+*.tar.gz
+
+# training outputs (retrain via scripts in ml/)
+ml/*.pt
+ml/*.pkl
+ml/*_out/
+ml/cifake_local_test/
+ml/_eval_tmp/
+ml/data_demo/
+ml/voice_demo/
+backend/_test_report.pdf
+
+# keep backend runtime weights (small, needed to run)
+!backend/app/services/mixed_cnn.pt
+!backend/app/services/voice_model.pkl
+!backend/app/services/model.pkl
+
+# local eval reports (optional - uncomment to keep thesis evidence)
+# *_report*.json
+# *_metrics.json

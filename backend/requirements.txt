@@ -1,0 +1,7 @@
+fastapi>=0.115,<0.117
+uvicorn[standard]>=0.30
+python-multipart>=0.0.12
+pillow>=11.0
+numpy>=2.0
+reportlab>=4.0
+mutagen>=1.47

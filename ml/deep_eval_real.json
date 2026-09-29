@@ -1,0 +1,272 @@
+{
+  "model": "umm-maybe/AI-image-detector",
+  "n_real": 32,
+  "n_ai": 19,
+  "accuracy": 0.5882,
+  "precision": 0.4375,
+  "recall": 0.3684,
+  "f1": 0.4,
+  "roc_auc": 0.5132,
+  "3way": {
+    "likely_ai": 4,
+    "inconclusive": 16,
+    "likely_authentic": 31
+  },
+  "samples": [
+    {
+      "file": "2017-07-17-12-29-54-472.jpg",
+      "true": "real",
+      "ai_prob": 0.6145
+    },
+    {
+      "file": "2017-07-17-17-16-08-554.jpg",
+      "true": "real",
+      "ai_prob": 0.2015
+    },
+    {
+      "file": "20170206_143209.jpg",
+      "true": "real",
+      "ai_prob": 0.0627
+    },
+    {
+      "file": "20180207_121928.jpg",
+      "true": "real",
+      "ai_prob": 0.048
+    },
+    {
+      "file": "20180212_201501.jpg",
+      "true": "real",
+      "ai_prob": 0.053
+    },
+    {
+      "file": "20180220_135448.jpg",
+      "true": "real",
+      "ai_prob": 0.0705
+    },
+    {
+      "file": "20180406_131550.jpg",
+      "true": "real",
+      "ai_prob": 0.0407
+    },
+    {
+      "file": "4602.webp",
+      "true": "real",
+      "ai_prob": 0.5493
+    },
+    {
+      "file": "images (1).jpg",
+      "true": "real",
+      "ai_prob": 0.4746
+    },
+    {
+      "file": "images (10).jpg",
+      "true": "real",
+      "ai_prob": 0.2291
+    },
+    {
+      "file": "images (11).jpg",
+      "true": "real",
+      "ai_prob": 0.4665
+    },
+    {
+      "file": "images (12).jpg",
+      "true": "real",
+      "ai_prob": 0.3085
+    },
+    {
+      "file": "images (13).jpg",
+      "true": "real",
+      "ai_prob": 0.2142
+    },
+    {
+      "file": "images (2).jpg",
+      "true": "real",
+      "ai_prob": 0.8854
+    },
+    {
+      "file": "images (3).jpg",
+      "true": "real",
+      "ai_prob": 0.4691
+    },
+    {
+      "file": "images (4).jpg",
+      "true": "real",
+      "ai_prob": 0.3952
+    },
+    {
+      "file": "images (5).jpg",
+      "true": "real",
+      "ai_prob": 0.5283
+    },
+    {
+      "file": "images (6).jpg",
+      "true": "real",
+      "ai_prob": 0.2159
+    },
+    {
+      "file": "images (7).jpg",
+      "true": "real",
+      "ai_prob": 0.1575
+    },
+    {
+      "file": "images (8).jpg",
+      "true": "real",
+      "ai_prob": 0.1851
+    },
+    {
+      "file": "images (9).jpg",
+      "true": "real",
+      "ai_prob": 0.0655
+    },
+    {
+      "file": "images.jpg",
+      "true": "real",
+      "ai_prob": 0.7651
+    },
+    {
+      "file": "photo_2025-10-15_01-42-25.jpg",
+      "true": "real",
+      "ai_prob": 0.5418
+    },
+    {
+      "file": "photo_2026-07-10_19-59-32.jpg",
+      "true": "real",
+      "ai_prob": 0.6247
+    },
+    {
+      "file": "received_1915007171919831.jpeg",
+      "true": "real",
+      "ai_prob": 0.6693
+    },
+    {
+      "file": "received_2033294440271444.jpeg",
+      "true": "real",
+      "ai_prob": 0.0699
+    },
+    {
+      "file": "received_2062128017424636.jpeg",
+      "true": "real",
+      "ai_prob": 0.546
+    },
+    {
+      "file": "received_2074314212836133.jpeg",
+      "true": "real",
+      "ai_prob": 0.1798
+    },
+    {
+      "file": "received_2093062367664311.jpeg",
+      "true": "real",
+      "ai_prob": 0.3164
+    },
+    {
+      "file": "WhatsApp Image 2025-11-02 at 20.31.41_7b721e54.jpg",
+      "true": "real",
+      "ai_prob": 0.2637
+    },
+    {
+      "file": "WhatsApp Image 2025-12-17 at 7.26.48 PM.jpeg",
+      "true": "real",
+      "ai_prob": 0.0101
+    },
+    {
+      "file": "WhatsApp Image 2026-06-19 at 11.26.19 PM.jpeg",
+      "true": "real",
+      "ai_prob": 0.2709
+    },
+    {
+      "file": "download (1).jpg",
+      "true": "ai",
+      "ai_prob": 0.0672
+    },
+    {
+      "file": "download (10).jpg",
+      "true": "ai",
+      "ai_prob": 0.1397
+    },
+    {
+      "file": "download (2).jpg",
+      "true": "ai",
+      "ai_prob": 0.2634
+    },
+    {
+      "file": "download (3).jpg",
+      "true": "ai",
+      "ai_prob": 0.6379
+    },
+    {
+      "file": "download (4).jpg",
+      "true": "ai",
+      "ai_prob": 0.6919
+    },
+    {
+      "file": "download (5).jpg",
+      "true": "ai",
+      "ai_prob": 0.5057
+    },
+    {
+      "file": "download (6).jpg",
+      "true": "ai",
+      "ai_prob": 0.058
+    },
+    {
+      "file": "download (7).jpg",
+      "true": "ai",
+      "ai_prob": 0.4561
+    },
+    {
+      "file": "download (8).jpg",
+      "true": "ai",
+      "ai_prob": 0.8957
+    },
+    {
+      "file": "download (9).jpg",
+      "true": "ai",
+      "ai_prob": 0.0102
+    },
+    {
+      "file": "download.jpg",
+      "true": "ai",
+      "ai_prob": 0.0702
+    },
+    {
+      "file": "Gemini_Generated_Image_rtqknmrtqknmrtqk.jpg",
+      "true": "ai",
+      "ai_prob": 0.0992
+    },
+    {
+      "file": "images (1).jpg",
+      "true": "ai",
+      "ai_prob": 0.9452
+    },
+    {
+      "file": "images (2).jpg",
+      "true": "ai",
+      "ai_prob": 0.6449
+    },
+    {
+      "file": "images (3).jpg",
+      "true": "ai",
+      "ai_prob": 0.6891
+    },
+    {
+      "file": "images.jpg",
+      "true": "ai",
+      "ai_prob": 0.2119
+    },
+    {
+      "file": "photo_2026-09-09_17-55-26.jpg",
+      "true": "ai",
+      "ai_prob": 0.0683
+    },
+    {
+      "file": "photo_2026-09-09_19-38-43.jpg",
+      "true": "ai",
+      "ai_prob": 0.2281
+    },
+    {
+      "file": "photo_2026-09-09_19-50-20.jpg",
+      "true": "ai",
+      "ai_prob": 0.0686
+    }
+  ]
+}
